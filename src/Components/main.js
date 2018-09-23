@@ -3,7 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 
 import LandingPage from './landingpage';
 import Products from './products';
-import Contact from './mission';
+import Contact from './contact';
 import Mission from './mission';
 
 

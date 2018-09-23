@@ -4,11 +4,9 @@ import { Grid, Cell } from 'react-mdl';
 class Landing extends Component {
     render(){
         return(
-            <Grid className="demo-grid-2">
-                <Cell col={6}>6</Cell>
-                <Cell col={4}>4</Cell>
-                <Cell col={2}>2</Cell>
-            </Grid>
+            <div style={{width: '100%', margin: 'auto'}}>
+                <h1> Hello </h1>
+            </div>
             )
     }
         
