@@ -10,3 +10,14 @@
 .links:hover::after{
   width: 100%;
 }
+
+.products {
+  margin-top: 2%;
+  margin-left: 4%;
+}
+
+.product-img {
+  height: 22rem;
+  width: 26rem;
+  border-radius: 30px;
+}

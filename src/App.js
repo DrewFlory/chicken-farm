@@ -19,16 +19,15 @@ class App extends Component {
           </Header>
         <Drawer>
             <Navigation>
+                <Link to="/" style= {{fontFamily: 'Alegreya Sans SC', fontSize: '20px', color: 'black'}}>Home</Link>
                 <Link to="/products" style= {{fontFamily: 'Alegreya Sans SC', fontSize: '20px', color: 'black'}}>Products</Link>
                 <Link to="/mission" style= {{fontFamily: 'Alegreya Sans SC', fontSize: '20px', color: 'black'}}>Our Story</Link>
                 <Link to="/contact" style= {{fontFamily: 'Alegreya Sans SC', fontSize: '20px', color: 'black'}}>Contact Us</Link>
             </Navigation>
         </Drawer>
         <Content>
-          <div className="page-content">
+          <div className="page-content" />
             <Main />
-
-          </div>
         </Content>
     </Layout>
   </div>
