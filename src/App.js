@@ -10,7 +10,7 @@ class App extends Component {
 
       <div style={{height: '100vh', position: 'relative'}}>
         <Layout style={{background: 'url(https://png.pngtree.com/thumb_back/fw800/back_pic/04/33/63/03584574ea93115.jpg) center / cover'}}>
-          <Header transparent title={<Link style={{textDecoration: 'none', color: '#fff', fontFamily: 'Old Standard TT', fontSize: '42px'}} to="/" className="link">Rosie's Chicken Farm</Link>} scroll>
+          <Header transparent title={<Link style={{textDecoration: 'none', color: '#fff', fontFamily: 'Old Standard TT', fontSize: '42px'}} to="/" className="link">Rose's Chicken Farm</Link>} scroll>
             <Navigation>
                 <Link className = "links" to="/products" style= {{fontFamily: 'Alegreya Sans SC', fontSize: '20px', color: '#fff'}}>Products</Link>
                 <Link className = "links"  to="/mission" style= {{fontFamily: 'Alegreya Sans SC', fontSize: '20px', color: '#fff'}}>Our Story</Link>

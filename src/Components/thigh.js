@@ -24,11 +24,11 @@ class Thigh extends Component {
     render() {
       return (
         <div>
-          <Button onClick={this.handleOpenDialog} style={{backgroundColor: "white", borderRadius: "20px", marginLeft: "25%", marginTop: "5%"}}raised ripple>Pricing</Button>
+          <Button onClick={this.handleOpenDialog} style={{backgroundColor: "white", borderRadius: "20px", marginTop: "5%", border: "1px solid black", boxShadow: "2px 2px 2px black"}}raised ripple>Pricing</Button>
           <Dialog open={this.state.openDialog}>
-            <DialogTitle>Allow data collection?</DialogTitle>
+            <DialogTitle style={{color: 'black'}}>Thigh</DialogTitle>
             <DialogContent>
-              <p>Allowing us to collect data will let us get you the information you want faster.</p>
+              <p>Thigh</p>
             </DialogContent>
             <DialogActions>
               <Button type='button' onClick={this.handleCloseDialog}>Close</Button>
