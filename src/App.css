@@ -14,10 +14,36 @@
 .products {
   margin-top: 2%;
   margin-left: 4%;
+  padding-bottom: 2rem;
 }
 
 .product-img {
-  height: 22rem;
-  width: 26rem;
+  height: 20rem;
+  width: 24rem;
   border-radius: 30px;
+}
+
+.products h1 {
+  font-family: 'Playfair Display SC', serif;
+  color: #fff;
+  text-align: center;
+  margin-left: -6%;
+  font-size: 62px;
+}
+
+.products h4 {
+  color: #fff;
+  font-family: 'Playfair Display SC', serif;
+  text-align: center;
+  margin-left: -20%;
+  font-size: 20px;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card button {
+
 }
